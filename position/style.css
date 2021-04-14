@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+    height: 400px;
+    margin: 10%;
+    border: dotted;
+    border-color: gray;
+}
+
+.box {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+#red-pr {
+    border: solid;
+    border-color: rgb(146, 17, 17);
+    left: 2%;
+    top: 5%;
+}
+
+#blue-pr {
+    border: solid;
+    border-color: rgb(77, 14, 136);
+    left: 10%;
+    top: 14%;
+}
+
+#green-pr {
+    border: solid;
+    border-color: rgb(15, 110, 35);
+    left: 18%;
+    top: 30%;
+}
+
+#red {
+    left: 2%;
+    top: 5%;
+    background-color: rgb(146, 17, 17);
+}
+
+#blue {
+    left: 5%;
+    top: -1%;
+    background-color: rgb(77, 14, 136);
+}
+
+#green {
+    left: 8%;
+    top: -7%;
+    background-color: rgb(15, 110, 35);
+}
+
+#blue-top {
+    left: 5%;
+    top: -1%;
+    background-color: rgb(77, 14, 136);
+    z-index: 1;
+}
+
+#green-big {
+    display: block;
+    position: relative;
+    width: 70%;
+    height: 90%;
+    background-color: rgb(51, 231, 45);
+    top: 5%;
+    margin-top: -5%;
+    margin: auto;
+}
+
+#white-top {
+    background-color: white;
+    left: 2%;
+    top: 5%;
+}
+
+#white-bottom {
+    background-color: white;
+    position: absolute;
+    right: 2%;
+    bottom: 5%;
+    float: right;
+    vertical-align: bottom;
+}
+
+.news {
+    flex-direction: column;
+    overflow: scroll;
+    align-items: center;
+    display: block;
+    height: 400px;
+    margin: 10%;
+    border: dotted;
+    border-color: gray;
+}
+
+.news-portal {
+    display: table;
+    flex-direction: column;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(154, 192, 17);
+    border-bottom: solid;
+    border-color: rgb(153, 208, 0);
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    color: whitesmoke;
+}
+
+.news-portal-text{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    border: solid;
+    border-color: rgb(173, 248, 87);
+}
