@@ -102,6 +102,10 @@ body{
     line-height: 50px;
 }
 
+.sign:hover{
+    background-color:#CD6326;
+}
+
 .close{
     position: absolute;
     font-size: 0px;
@@ -122,7 +126,7 @@ h1{
     display: flex;
     flex-direction: column;
     width: 274px;
-    height: 340px;
+    height: 700px;
     justify-content: space-around;
     left: 250px;
     top: 570px;
@@ -154,6 +158,7 @@ h1{
     color: #F7F7F7;
     margin-left: 250px;
     width: 450px;
+    margin-top: -140px;
 }
 
 .title {
@@ -186,4 +191,296 @@ h1{
 .donate__button:hover {
     background: #894219;
     transition: 0.3s;
+}
+
+.latest_articles{
+    height: 1368px;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCCCCC;
+    align-items: center;
+}
+
+.hight_text{
+    height: 350px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main_text{
+    width: 1440px;
+    height: 72px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pustota{
+    height:20px;
+    width: 1440px;
+}
+
+.text1{
+    height:36px;
+    width: 1440px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+
+.block{
+    height: 480px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    background-color: #CCCCCC;
+    align-items: flex-end;
+}
+
+.half{
+    height:360px;
+    width:1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kartinka1{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    background-image: url(./asserts/deer.jpg);
+}
+
+.kartinka1_text{
+    height: 115px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.kartinka1_text_h1{
+    width: 52px;
+    height: 36px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka1_pustotal{
+    height:10px;
+    width:300px;
+}
+
+.kartinka1_text_h2{
+    width: 186px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka1_pustota2{
+    width:300px;
+    height:40px;
+}
+
+.kartinka2{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    background-image: url(/asserts/squirrel.jpg);
+}
+
+.kartinka2_text{
+    height: 115px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.kartinka2_text_h1{
+    width: 82px;
+    height: 36px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka2_pustotal{
+    height:10px;
+    width:300px;
+}
+
+.kartinka2_text_h2{
+    width: 152px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka2_pustota2{
+    width:300px;
+    height:40px;
+}
+
+.kartinka3{
+    width: 300px;
+    height: 360px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    background-image: url(/asserts/bird.jpg);
+}
+
+.kartinka3_text{
+    height: 115px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.kartinka3_text_h1{
+    width: 43px;
+    height: 36px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka3_pustotal{
+    height:10px;
+    width:300px;
+}
+
+.kartinka3_text_h2{
+    width: 125px;
+    height: 27px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.kartinka3_pustota2{
+    width:300px;
+    height:40px;
+}
+
+.low_block{
+    height: 640px;
+    width: 1440px;
+    background-color:#CCCCCC;
+}
+
+.low_text{
+    height:280px;
+    width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.low_text1{
+    width: 526px;
+    height: 40px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.pustota_low_text{
+    width: 1440px;
+    height: 60px;
+}
+
+
+.search_email{
+    height:60px;
+    width: 660px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="stroka"]{
+    height: 60px;
+    width: 540px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+
+.search_button{
+    height: 60px;
+    width: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7;
+    background-color:#CD6326;
+    justify-content: center;
+    border-radius: 0px 10px 10px 0px;
 }
